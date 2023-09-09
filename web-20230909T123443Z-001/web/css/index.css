@@ -1,0 +1,491 @@
+html{
+	font-family: Arial;
+	color:#333;
+}
+body{
+
+	margin:0;
+}
+#container{
+	width:100%;
+	height: 100%;
+}
+	
+
+#header{
+	width:100%;
+	height:50px;
+	margin:0;
+}
+#logo{
+	margin:0px;
+	
+
+}
+#logo img{
+	height:auto;
+	width:120px;
+	border:solid green;
+	border-radius: 20px;
+	margin:0;
+	float:left;
+
+
+}
+
+#top_info{
+	
+	background-color: #036065;
+	float:right;
+	padding:20px;
+	font-size: 30px;
+	font-weight: 22px;
+	color:white;
+	clear:right;
+	width:auto;
+	opacity: .9;
+	filter: alpha(opacity=70);
+	border-radius: 15px;
+	
+}
+#top_info:hover{
+	border:solid green;
+	color:white;
+	background:url("../img/logo.png");
+	background-size: 100% 100%;
+
+}
+
+#navbar{
+	background:url("../img/header2.jpg");
+	margin: 0px 30px 10px 30px;
+	float:left;
+	padding:0;
+	background-size: 100% 100%;
+	height: 85px;
+	
+	
+}
+#navbar ul{
+	
+	margin-top:35px;
+	background: #036065;
+	padding: 10px 550px 0 0;
+		opacity: .7;	
+	filter: alpha(opacity=70);
+	list-style-type: none;
+	position:relative;
+
+		
+}
+#navbar ul li{
+	display:inline-block;
+	padding:0;
+
+
+	
+}
+#navbar ul li a{
+	float:left;
+	display:block;	
+	 color:white;
+	 font-weight: bold;
+	text-decoration: none;
+	padding: 10px;
+	font-size: 15px;
+	border-radius: 10px;
+
+
+}
+#navbar ul li:hover{
+	background: #d21919;
+	transition: all .5s;
+	cursor:pointer;
+	border-radius: 15px;
+	
+
+}
+/*#navbar ul li:hover ul{
+	display:block;
+	width:auto;
+	
+
+}
+#navbar ul ul{
+	display: none;
+	padding: 0;
+	position: absolute;
+}
+#navbar ul ul li{
+	display:block;
+
+
+}
+#navbar ul ul li a{
+	font-weight: bold;
+	width:auto;
+	
+	
+	
+}
+#navbar ul ul li a:hover{
+	background-color: #d21919;
+	transition: all .1s;
+	border-radius: 15px;
+}*/
+
+#content{
+	clear:both;
+	background: url("../img/pup.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+#banner{
+	float:left;
+	width:80%;
+	clear:left;
+	margin:0;
+	border-radius: 30px;
+	margin-bottom: 10px;
+
+
+}
+#banner img{
+	width:auto;
+
+}
+#marquee{
+float:right;
+width:250px;
+height:auto;
+margin-left: 0;
+margin-top: 70px;
+opacity: .8;
+
+}
+#left_col{
+	
+	float: left; 
+	width:20%;
+	height:auto;
+	border:1px solid black;
+	color:#0e1;
+	background-color:#036965;
+	opacity: .6;
+	font-weight: bold; 
+	margin-left: 150px;
+	margin-top: 30px;
+	text-align: center;
+	padding: auto;
+	
+	margin-right: 15%;
+
+}
+#login{
+	margin-top:20px;
+}
+#right_col{
+	
+	margin:0;
+	height:auto;
+	
+	
+
+}
+#right_col img{
+	height:auto; 
+	width:400px;
+	margin-top:30px;
+	opacity: .5;
+	filter: alpha(opacity=70);
+	background:transparent;
+	border-radius: 15px;
+	margin-bottom: 100px;
+
+}
+/*#mid_col{
+	float:right;
+	width:49%;
+	height:auto;
+	border:1px solid black;
+	color:#fff;
+	background: #c3c3c3;
+}*/
+#services{
+	clear:both;
+	margin:10px;
+	font-weight: bold;
+	color:green;
+	margin-right: 40%;
+	float:left;
+
+	
+}
+
+#list ul{
+	list-style-type: none;
+	display:inline;
+	text-decoration: none;	
+}
+#list ul li{
+	margin-right:0;
+	padding-top:10px;
+	margin-top:5px;
+}
+#list ul li a{
+	text-decoration: none;
+	background-color: lightblue;
+	padding:5px;
+	opacity: .9;
+	border-radius: 10px;
+
+}
+
+#content_area{
+	clear:both;
+	background:url("../img/cont.jpg");
+	background-size: 100% 100%;
+
+}
+
+#footer{
+	clear:both;
+	background:#c3c3c3;
+	color:#000;
+	text-align:center;
+	
+	border-top: solid 1px;
+}
+#log{
+
+	clear:left;
+	float:left;
+	margin:100px 100px;
+	padding:20px;
+	opacity: .8;
+	background-color: #036965;
+	border-radius: 10px;
+}
+#log input{
+	margin:5px;
+}
+
+
+#regFrm{
+	
+	border-radius:10px;
+	/*float:left;*/
+	padding:30px;
+	opacity: .8;
+	background-color: #036965;
+	color:#0e1;
+	height: auto;
+	width:220px;
+	margin-left: 50%;
+	clear:right;
+
+}
+#regFrm input{
+	padding:3px;
+	margin:5px;
+}
+
+#log strong{
+	color:#0e1;
+	margin-bottom:30px;
+	padding:10px;
+}
+#regFrm strong{
+	color:red;
+}
+.btn{
+	margin:10px 50px;
+ }
+
+.btn:hover{
+	background: #0fc7e4;
+	cursor: pointer;
+}
+.btnSub{
+	float:left;
+}
+.btnSub:hover{
+	background: #0fc7e4;
+	cursor:pointer;
+}
+.btnClear:hover{
+	background: #0fc7e4;
+	cursor: pointer;
+}
+#dog img{
+	opacity: .7;
+	margin:60px 50px;
+	height: 300px;
+	width: auto;
+	float: left;
+	
+}
+
+#pet_reg {
+	text-align: center;
+	border-radius:10px;
+	padding:10px;
+	opacity: .8;
+	background-color: #036965;
+	color:#0e1;
+	height: auto;
+	width:220px;
+	clear:both;	
+	margin-top: 100px;
+	margin-left: 40%;
+	margin-bottom: 100px;
+
+
+
+	
+}
+#pet_reg strong{
+	color:red;
+}
+#pet_reg input{
+	margin-left: 10px;
+	padding:5px;
+}
+
+#pet_ser{
+	
+	border-radius:10px;
+	padding:10px;
+	opacity: .8;
+	background-color: #036965;
+	color:#0e1;
+	height: auto;
+	width:220px;
+	clear:both;
+	margin-top: 100px;
+	margin-left: 40%;
+	margin-bottom: 100px;
+
+}
+#pet_ser strong{
+	color:red;
+}
+#pet_ser input{
+
+}
+#regBtn {
+	margin-left: 10%;
+	padding:5px;
+	float: left;
+
+}
+#clearBtn{
+	padding:5px;
+	padding-left: 0;
+}
+.btnreg:hover {
+	background: #0fc7e4;
+	
+	clear:right;
+}
+
+.list_pets{
+	clear:both;
+	
+	
+	margin-top: 50px;
+	width:auto;
+
+}
+.list_pets #update {
+	text-align: center;
+	border-radius:10px;
+	padding:10px;
+	opacity: .8;
+	background-color: #036965;
+	color:#0e1;
+	height: auto;
+	width:220px;
+	clear:both;	
+	margin-top: 100px;
+	margin-left: 40%;
+	margin-bottom: 100px;
+
+
+
+	
+}
+.list_pets #update strong{
+	color:red;
+}
+.list_pets #update input{
+	margin-left: 10px;
+	padding:5px;
+}
+
+.list_pets #update a{
+text-decoration: none;
+color:white;
+}
+.list_pets #update a:hover{
+text-decoration: none;
+color:white;
+background: #032165 ;
+}
+.list_pets #table{
+
+	border-radius:10px;
+	padding:20px;
+	opacity: .8;
+	background-color: #036965;
+	color:#0e1;
+	height: auto;
+	float:left;
+
+	margin-top: 40px;
+	margin-left: 10%;
+	margin-bottom: 50px;
+
+}
+.list_pets #table th, td{
+	padding: 10px;
+}
+.list_pets #table a{
+	text-decoration: none;
+	color:#fff;
+	padding: 10px;
+}
+
+.list_pets #table a:hover{
+	color:red;
+}
+
+#container .data {
+	border-radius:10px;
+	padding:20px;
+	opacity: .8;
+	background-color: #036965;
+	color:white;
+	height: auto;
+	float:left;
+	
+	margin-top: 40px;
+	margin-left: 10%;
+	margin-bottom: 50px;
+	clear:both;
+}
+
+#container .sum{
+border-radius:10px;
+	padding:20px;
+	opacity: .8;
+	background-color: #036965;
+	color:white;
+	height: auto;
+	float:left;
+
+	margin-left: 40%;
+	margin-bottom: 50px;
+	clear:both;
+
+}
