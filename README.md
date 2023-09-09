@@ -1,1 +1,1 @@
-# softwarica-projece-pet-shop
+# softwarica-project-pet-shop
